@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Cadastro de Usuario</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cadastro de Usuario</h1>
+        </header>
+        <main>
+            <form>
+                <input type="text" placeholder="Nome Completo" required id="name">
+                <input type="tel" placeholder="Fone:(xx)xxxxx-xxxx" required id="fone">
+                <button type="submit" id="botao-cadastro">+Cadastrar</button>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Numero</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!--
+EXPLICAÇÃO DO CÓDIGO HTML:
+
+Este documento HTML estrutura um sistema de cadastro de usuários com as seguintes características:
+
+1. ESTRUTURA BÁSICA:
+   - DOCTYPE html5 para compatibilidade moderna
+   - Idioma definido como português brasileiro (lang="pt-br")
+   - Meta charset UTF-8 para suporte a caracteres especiais
+   - Meta viewport para responsividade em dispositivos móveis
+
+2. HEAD:
+   - Link para arquivo CSS externo (main.css) para estilização
+   - Título da página: "Cadastro de Usuario"
+
+3. CONTAINER PRINCIPAL:
+   - Div com classe "container" que engloba todo o conteúdo
+   - Serve como wrapper para aplicação dos estilos CSS
+
+4. CABEÇALHO:
+   - Tag header semântica contendo o título h1
+   - Identifica claramente a função da página
+
+5. CONTEÚDO PRINCIPAL (main):
+   - Tag main semântica para o conteúdo principal
+   - Organiza formulário e tabela em uma estrutura vertical
+
+6. FORMULÁRIO:
+   - Input de texto para nome completo (obrigatório, id="name")
+   - Input de telefone com placeholder mostrando formato esperado (obrigatório, id="fone")
+   - Botão de submit para cadastrar novos contatos (id="botao-cadastro")
+   - Todos os campos têm IDs únicos para manipulação via JavaScript
+
+7. TABELA:
+   - Estrutura semântica com thead e tbody
+   - Cabeçalho (thead) define as colunas: Nome e Numero
+   - Corpo (tbody) inicialmente vazio, preenchido dinamicamente via JavaScript
+   - Remoção do atributo cellspacing para deixar o CSS controlar o espaçamento
+
+8. SCRIPT:
+   - Link para arquivo JavaScript externo (script.js)
+   - Posicionado antes do fechamento do body para garantir que o DOM esteja carregado
+
+A estrutura segue padrões semânticos HTML5 e está preparada para interação via CSS e JavaScript.
+-->

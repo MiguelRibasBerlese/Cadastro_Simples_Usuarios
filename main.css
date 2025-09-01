@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    background-color: cadetblue;
+    color: white;
+    border-radius: 16px;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-decoration: underline white;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input{
+    margin-right: 12px;
+    padding: 6px;
+}
+
+button{
+    padding: 6px;
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+button:hover{
+    background-color: green;
+}
+
+table{
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td{
+    padding: 12px 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+table thead th{
+    background-color: rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+table tbody tr:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*
+EXPLICAÇÃO DO CÓDIGO CSS:
+
+Este arquivo CSS estiliza um sistema de cadastro de usuários com as seguintes características:
+
+1. RESET GLOBAL (*):
+   - Remove margens e preenchimentos padrão de todos os elementos
+   - Aplica box-sizing: border-box para cálculo mais previsível de dimensões
+
+2. BODY:
+   - Define largura máxima de 960px para manter o layout responsivo
+   - Centraliza o conteúdo horizontalmente com margin: 0 auto
+
+3. CONTAINER PRINCIPAL (.container):
+   - Cor de fundo cadetblue (azul-acinzentado) com texto branco
+   - Bordas arredondadas (16px) para visual moderno
+   - Margem superior de 100px para espaçamento da parte superior da página
+   - Padding interno de 20px e centralização do texto
+
+4. CABEÇALHO (.container header):
+   - Usa flexbox para centralizar o título
+   - Margem inferior para separar do formulário
+   - Sublinhado branco no texto
+
+5. FORMULÁRIO (form):
+   - Layout horizontal usando flexbox
+   - Centraliza os elementos tanto horizontal quanto verticalmente
+   - Inputs com margem direita e padding para espaçamento
+
+6. BOTÃO (button):
+   - Estilo padrão: fundo branco, texto preto, sem bordas
+   - Hover: muda para fundo verde para feedback visual
+
+7. TABELA (table):
+   - Centralizada com margin: 20px auto
+   - border-collapse: collapse remove espaços entre células
+   - Fundo translúcido branco (rgba) para integração visual
+   - Bordas arredondadas com overflow: hidden
+
+8. CÉLULAS DA TABELA (th, td):
+   - Padding generoso (12px 20px) para melhor legibilidade
+   - Texto centralizado e bordas inferiores sutis
+
+9. CABEÇALHO DA TABELA (thead th):
+   - Fundo mais escuro para destaque
+   - Texto em maiúsculas com espaçamento entre letras
+   - Negrito para hierarquia visual
+
+10. INTERATIVIDADE (tbody tr:hover):
+    - Destaque visual nas linhas ao passar o mouse
+
+11. LAYOUT PRINCIPAL (main):
+    - Flexbox em coluna para organização vertical
+    - Centraliza formulário e tabela no eixo horizontal
+
+O design prioriza usabilidade, responsividade e uma aparência moderna e profissional.
+*/
+
+
+
